@@ -1,0 +1,92 @@
+{
+    "riders": [
+        { 
+            "name": "Marc Márquez", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Francesco Bagnaia", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Enea Bastianini", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Johan Zarco", 
+            "nationality": "France"
+        },
+        { 
+            "name": "Maverick Viñales", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Luca Marini", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Fabio Quartararo", 
+            "nationality": "France"
+        },
+        { 
+            "name": "Franco Morbidelli", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Raúl Fernández", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Takaaki Nakagami", 
+            "nationality": "Japan"
+        },
+        { 
+            "name": "Pedro Acosta", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Brad Binder", 
+            "nationality": "South Africa"
+        },
+        { 
+            "name": "Joan Mir", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Augusto Fernández", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Aleix Espargaró", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Alex Rins", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Jack Miller", 
+            "nationality": "Australia"
+        },
+        { 
+            "name": "Fabio Di Giannantonio", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Marco Bezzechi", 
+            "nationality": "Italy"
+        },
+        { 
+            "name": "Alex Marquez", 
+            "nationality": "Spain"
+        },
+        { 
+            "name": "Miguel Oliveira", 
+            "nationality": "Portugal"
+        },
+        { 
+            "name": "Jorge Martín", 
+            "nationality": "Spain"
+        }
+    ]
+}
