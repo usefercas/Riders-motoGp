@@ -4,3 +4,7 @@ body {
   a {
     color: var(--bs-blue);
   }
+  .card-img {
+    align-items: center;
+    background-color:rgb(149, 204, 8);
+  }

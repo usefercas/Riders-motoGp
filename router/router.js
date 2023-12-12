@@ -4,7 +4,7 @@ const usersController = require("../controllers/users.controller");
 const ridersController = require("../controllers/riders.controller");
 const authMiddleware = require("../middlewares/auth.middlewares");
 
-router.get("/", authMiddleware.isAuthenticated, (req, res, next) => {
+router.get("/", (req, res, next) => {
   res.render("home");
 });
 
@@ -16,10 +16,11 @@ router.post("/register", authMiddleware.isNotAuthenticated, authController.doReg
 router.get("/logout", authMiddleware.isAuthenticated, authController.logout);
 router.get("/activate/:token", authController.activate);
 
+
 // users
 router.get("/profile", authMiddleware.isAuthenticated, usersController.profile);
 
 // riders
-router.get("/riders", authMiddleware.isAuthenticated, ridersController.list);
-
+router.get("/riders", ridersController.list);
+router.get("/riders/:id", ridersController.details);
 module.exports = router;
