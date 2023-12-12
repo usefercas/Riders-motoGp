@@ -5,3 +5,11 @@ module.exports.list = function(req, res, next) {
     .then(riders => res.render("riders/list", { riders }))
     .catch(error => next(error));
 }
+
+module.exports.details = function(req, res, next) {
+  const {id} = req.params
+  Rider.findById(id)
+
+    .then(rider => res.render("riders/details", { rider }))
+    .catch(error => next(error));
+}
