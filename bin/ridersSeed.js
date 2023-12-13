@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Rider = require('../models/Rider.model');
 const { riders } = require('../public/js/riders.json');
-require('../config/db.config');
+require('../config/db.config');//asdasdasd
 
 mongoose.connection.once('open', () => {
   mongoose.connection.dropCollection('riders')
