@@ -1,13 +1,18 @@
-{{#each rider}}
-<div class="container  d-flex flex-column justify-content-center">
+
+<div class="container  d-flex flex-column justify-content-center mt-2" >
   <div class="col-12">
-    <img src={{image}} class="img-thumbnail" alt="{{name}}" width="200" />
-    <h1 class="mt-3">{{name}}</h1>
-    <p> {{nationality}} </p>
-    
+    <img src={{rider.image}} class="img-thumbnail" alt="{{rider.name}}" width="200" />
+    <h1 class="mt-3">{{rider.name}}</h1>
+    <img src={{rider.flag}} class="card-flag" alt="{{rider.name}}" width="20px" height="20px"/>
+    <p> <b>From</b>: {{rider.nationality}} </p>
+    <p> <b>Bike:</b> {{rider.bike}} </p>
+    <p> <b>Date Of Birth:</b> {{rider.dateOfBirth}} </p>
+    <p> <b>Place Of Birth:</b> {{rider.placeOfBirth}} </p>
+    <p> <b>Height:</b> {{rider.height}} </p>
+    <p> <b>Story:</b> {{rider.story}} </p>
   </div>
-  {{/each}}
-  <p>equipación</p>
+ 
+  <p>Merchandising</p>
     <div>
     <a class="btn btn-success" href="/riders/{{id}}/update" style="width: fit-content;"><i data-feather="edit"></i></a>
     <a class="btn btn-danger" href="/riders/{{id}}/delete" style="width: fit-content;"><i data-feather="trash-2"></i></a>

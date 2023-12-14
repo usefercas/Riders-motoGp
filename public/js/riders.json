@@ -1,114 +1,248 @@
+
 {
     "riders": [
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/4fad24cf-cf44-4636-aa43-b32a99747891/aijXUw2f.png?height=400&width=600",
             "name": "Marc Márquez", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "Honda",
+              "dateOfBirth": "17/02/1993",
+              "placeOfBirth": "Cervera",
+              "height": "169 cm",
+              "story": "Marc Marquez became the youngest ever six-time World Champion after taking his fourth premier class crown in 2017. On the podium in his rookie 125 campaign in 2008, Marquez won that crown in 2010 before moving up to Moto2™ for 2011. After a tough start, the rider from Cervera went on an incredible winning spree and had closed the gap to Championship leader Stefan Bradl to a handful of points, before a crash in practice for the Malaysian GP saw Marquez forced to cede the fight and miss the two remaining races of the year. Problems with his vision in the off season saw surgery then finally fix the problem, and despite the shortened preparation for 2012 the Spaniard took the crown in stunning style by the Australian GP."
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/a5b9d197-c272-45e1-8ea4-d1d5ca54ff77/YW9dAEBJ.png?height=400&width=600",
             "name": "Francesco Bagnaia", 
-            "nationality": "Italy"
+            "flag": "../images/flag/italy.png",
+            "nationality": "Italy",
+            "bike": "Ducati",
+            "dateOfBirth": "14/01/1997",
+            "placeOfBirth": "Torino",
+            "height": "176 cm",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/287d5a3c-1c63-449f-b9be-8e141219cb9e/kComPhrd.png?height=400&width=600",
             "name": "Enea Bastianini", 
-            "nationality": "Italy"
+            "flag": "../images/flag/italy.png",
+            "nationality": "Italy",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/8d3f29d4-f987-45f4-b70e-c87e41016c8c/05_Johann_Zarco_DS_5294.png?height=400&width=600",
             "name": "Johan Zarco", 
-            "nationality": "France"
+            "flag": "../images/flag/france.png",
+            "nationality": "France",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/e7f84e85-e76a-41fb-a412-db78a039fbea/niODwVfs.png?height=400&width=600",
             "name": "Maverick Viñales", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/a884e4f7-4805-4b57-b039-5c66e94edf78/10_Luca_Marini_DS_5278.png?height=400&width=600",
             "name": "Luca Marini", 
-            "nationality": "Italy"
+            "flag": "../images/flag/italy.png",
+            "nationality": "Italy",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/07/11/1cfe9a0b-45ce-4f56-a732-2ee9edad957e/Fabioquartararo-1-.png?height=400&width=600",
             "name": "Fabio Quartararo", 
-            "nationality": "France"
+            "flag": "../images/flag/france.png",
+            "nationality": "France",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/e887317a-d0d7-4626-a27e-b63059c416e0/21_Franco_Morbidelli_DS_5306.png?height=400&width=600",
             "name": "Franco Morbidelli", 
-            "nationality": "Italy"
+            "flag": "../images/flag/italy.png",
+            "nationality": "Italy",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/9ac9954e-0a65-4b37-bc3d-18c7a619a363/p6MYq6ml.png?height=400&width=600",
-            "name": "Raúl Fernández", 
-            "nationality": "Spain"
+            "name": "Raúl Fernández",
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
+           
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/68287e0b-22cf-49da-9878-cba02c047d35/EN5xpOkx.png?height=400&width=600",
             "name": "Takaaki Nakagami", 
-            "nationality": "Japan"
+            "flag": "../images/flag/japan.png",
+            "nationality": "Japan",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/61234ddf-029a-4473-b288-52e7901afd3b/31_Pedro_Acosta_DS_5257.png?height=400&width=600",
             "name": "Pedro Acosta", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/8ec0425d-a31c-44fb-9da3-fed5663b1ad1/WBIOoIRV.png?height=400&width=600",
             "name": "Brad Binder", 
-            "nationality": "South Africa"
+            "flag": "../images/flag/south_africa.png",
+            "nationality": "South Africa",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/632b4fff-4a16-465c-864f-2493995e69f5/FU25ODeO.png?height=400&width=600",
             "name": "Joan Mir", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/641ffee3-54db-4cdb-b6f1-9d7de8365660/wXXlUcOg.png?height=400&width=600",
             "name": "Augusto Fernández", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/d61e2c05-c564-479f-8578-d1e6a30f9b35/ucV0oYYh.png?height=400&width=600",
             "name": "Aleix Espargaró", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/6640c07d-2742-4668-b60a-7c63b0d2b18a/42_Alex_Rins_DS_6238.png?height=400&width=600",
             "name": "Alex Rins", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/bb3690ac-1250-4486-a60b-e07b6c54a321/22xRcZYS.png?height=400&width=600",
             "name": "Jack Miller", 
-            "nationality": "Australia"
+            "flag": "../images/flag/australia.png",
+            "nationality": "Australia",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/11/28/1236aef6-609d-4689-8f6f-642ddd107963/49_Fabio_Di_Giannantonio_DS_5323.png?height=400&width=600",
-            "name": "Fabio Di Giannantonio", 
-            "nationality": "Italy"
+            "name": "Fabio Di Giannantonio",
+            "flag": "../images/flag/italy.png", 
+            "nationality": "Italy",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/9e9cc8f6-8ddb-4c4c-a6d8-712851fb3dce/L7mD2P5e.png?height=400&width=600",
             "name": "Marco Bezzechi", 
-            "nationality": "Italy"
+            "flag": "../images/flag/italy.png",
+            "nationality": "Italy",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/10587c93-5959-40a9-a73f-c157f2423b2d/qhUTaqai.png?height=400&width=600",
             "name": "Alex Marquez", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/06/15/51bae0bb-59b4-4cd6-954a-12420af4afce/OkorDEXf.png?height=400&width=600",
             "name": "Miguel Oliveira", 
-            "nationality": "Portugal"
+            "flag": "../images/flag/portugal.png",
+            "nationality": "Portugal",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         },
         { 
             "image": "https://resources.motogp.pulselive.com/photo-resources/2023/09/23/971a3e6e-ab64-4507-9b6b-572741c2d3c9/Yd6Ecyd1.png?height=400&width=600",
             "name": "Jorge Martín", 
-            "nationality": "Spain"
+            "flag": "../images/flag/spain.png",
+            "nationality": "Spain",
+            "bike": "" ,
+            "dateOfBirth": "",
+            "placeOfBirth": "",
+            "height": "",
+            "story": ""
         }
     ]
 }

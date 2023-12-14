@@ -6,5 +6,12 @@ body {
   }
   .card-img {
     align-items: center;
-    background-color:rgb(149, 204, 8);
+    background-image: url("../images/moto25.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+  .img-thumbnail {
+    background-image: url("../images/moto25.jpg");
+    background-position: center;
+    background-size: cover;
   }
