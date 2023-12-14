@@ -9,9 +9,28 @@ const RiderSchema = mongoose.Schema({
     type: String,
     required: true,
   },
+  flag: {
+    type: String,
+    required: true,
+  },
   nationality: {
     type: String,
     required: true,
+  },
+  bike: {
+    type: String,
+  },
+  dateOfBirth: {
+    type: String,
+  },
+  placeOfBirth: {
+    type: String,
+  },
+  height: {
+    type: String,
+  },
+  story: {
+    type: String,
   },
 });
 

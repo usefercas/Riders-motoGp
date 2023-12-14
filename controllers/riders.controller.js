@@ -10,6 +10,6 @@ module.exports.details = function(req, res, next) {
   const {id} = req.params
   Rider.findById(id)
 
-    .then(rider => res.render("riders/details", { rider }))
+    .then(rider => res.render("riders/details", { rider }))// meter un condicional de errores
     .catch(error => next(error));
 }
