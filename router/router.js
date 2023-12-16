@@ -47,4 +47,6 @@ router.post("/riders/:id/update", /*authMiddleware.isAuthenticated,*/ upload.sin
 //router.post("/comments/:id/create", authMiddleware.isAuthenticated, commentsController.doCreate);
 
 
+//riders/:id/favourite - la ruta
+
 module.exports = router;
