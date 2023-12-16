@@ -2,7 +2,7 @@ const router = require("express").Router();
 const authController = require("../controllers/auth.controller");
 const usersController = require("../controllers/users.controller");
 const ridersController = require("../controllers/riders.controller");
-const commentsController = require("../controllers/comments.controller");
+//const commentsController = require("../controllers/comments.controller");
 const authMiddleware = require("../middlewares/auth.middlewares");
 const upload = require("../config/storage.config");
 const passport = require('passport');
@@ -33,18 +33,18 @@ router.get("/profile", authMiddleware.isAuthenticated, usersController.profile);
 
 // riders
 router.get("/riders", ridersController.list);
-router.get("/riders/:id", ridersController.details);
 
-router.get("/riders/create", authMiddleware.isAuthenticated, ridersController.create);
-router.post("/riders/create", authMiddleware.isAuthenticated, upload.single('image'), ridersController.doCreate);
-router.get("/riders/:id", authMiddleware.isAuthenticated, ridersController.details);
-router.get("/riders/:id/delete", authMiddleware.isAuthenticated, ridersController.delete);
-router.get("/riders/:id/update", authMiddleware.isAuthenticated, ridersController.update);
-router.post("/riders/:id/update", authMiddleware.isAuthenticated, upload.single('image'), ridersController.doUpdate);
+
+router.get("/riders/create", /*authMiddleware.isAuthenticated,*/ ridersController.create);
+router.post("/riders/create", /*authMiddleware.isAuthenticated,*/ upload.single('image'), ridersController.doCreate);
+router.get("/riders/:id", /*authMiddleware.isAuthenticated,*/ ridersController.details);
+router.get("/riders/:id/delete", /*authMiddleware.isAuthenticated,*/ ridersController.delete);
+router.get("/riders/:id/update", /*authMiddleware.isAuthenticated,*/ ridersController.update);
+router.post("/riders/:id/update", /*authMiddleware.isAuthenticated,*/ upload.single('image'), ridersController.doUpdate);
 
 // comments
-router.get("/comments/:id/delete", authMiddleware.isAuthenticated, commentsController.delete);
-router.post("/comments/:id/create", authMiddleware.isAuthenticated, commentsController.doCreate);
+//router.get("/comments/:id/delete", authMiddleware.isAuthenticated, commentsController.delete);
+//router.post("/comments/:id/create", authMiddleware.isAuthenticated, commentsController.doCreate);
 
 
 module.exports = router;
