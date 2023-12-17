@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const FavouriteSchema = mongoose.Schema({
+    content:{
+        type: String,
+        required: true,
+    },
     rider: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Rider", 
@@ -15,5 +19,3 @@ const FavouriteSchema = mongoose.Schema({
 
 const Favaurite = mongoose.model("Favaurite", FavouriteSchema);
 module.exports = Favaurite;
-
-//hacer ruta y controlador. hacer un post o un get. 
