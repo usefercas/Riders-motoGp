@@ -1,9 +1,9 @@
 
 <div class="container  d-flex flex-column justify-content-center mt-2" >
   <div class="col-12">
-    <img src={{rider.image}} class="img-thumbnail" alt="{{rider.name}}" width="200" />
+    <img src="{{rider.image}}" class="img-thumbnail" alt="{{rider.name}}" width="200" />
     <h1 class="mt-3">{{rider.name}}</h1>
-    <img src={{rider.flag}} class="card-flag" alt="{{rider.name}}" width="20px" height="20px"/>
+    <img src="{{rider.flag}}" class="card-flag" alt="{{rider.name}}" width="20px" height="20px"/>
     <p> <b>From</b>: {{rider.nationality}} </p>
     <p> <b>Bike:</b> {{rider.bike}} </p>
     <p> <b>Date Of Birth:</b> {{rider.dateOfBirth}} </p>
@@ -21,7 +21,7 @@
   <hr>
   <div class="col-12">
     <h2>Comments</h2>
-    {{#each comments}}
+    {{#each rider.comments}}
     <div class="card my-2">
       <div class="card-body">
         <p class="card-text">{{this.content}}</p>
@@ -32,11 +32,12 @@
       </div>
     </div>
     {{/each}}
-    <form action="/comments/{{_id}}/create" method="POST">
+    <form action="/comments/{{rider._id}}/create" method="POST">
       <div class="mb-3">
         <label for="comment" class="form-label">Comment</label>
         <textarea class="form-control" name="content" id="comment" rows="3" required></textarea>
       </div>
       <button type="submit" class="btn btn-success">Comment</button>
     </form>
+    
 </div>
